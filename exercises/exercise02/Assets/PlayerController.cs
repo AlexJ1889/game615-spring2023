@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
             inclineSpeed *= -1;
             lastInclineSwitchTime = Time.time;
         }
-        gameObject.transform.Rotate(0, inclineSpeed, 0);
+        gameObject.transform.Rotate(inclineSpeed, 0, 0);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
