@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float launchForce;
 
-    float inclineSpeed = 0.18f;
+    float inclineSpeed = 0.1f;
 
     public Rigidbody rb;
     float lastInclineSwitchTime = 0;
