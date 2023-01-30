@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.name == "Target")
         {
             Destroy(col.gameObject);
-            gameObject.transform.Rotate(0, 0, 0);
         }
       
     }
